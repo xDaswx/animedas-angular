@@ -4,12 +4,14 @@ import { Container2Component } from './components/container2/container2.componen
 import { HomeComponent } from './pages/home/home.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ImagePreviewComponent } from './components/image-preview/image-preview.component';
+import { DocsComponent } from './pages/docs/docs.component';
 
 
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent},
+  {path:'docs',component:DocsComponent},
   {path:'gallery/:type',component:GalleryComponent},
   {path:'preview/:id',component:ImagePreviewComponent},
 

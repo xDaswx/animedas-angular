@@ -12,6 +12,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GalleryHeaderComponent } from './components/gallery-header/gallery-header.component';
 import { ImagePreviewComponent } from './components/image-preview/image-preview.component';
+import { DocsComponent } from './pages/docs/docs.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ImagePreviewComponent } from './components/image-preview/image-preview.
     GalleryComponent,
     GalleryHeaderComponent,
     ImagePreviewComponent,
+    DocsComponent,
 
   ],
   imports: [
