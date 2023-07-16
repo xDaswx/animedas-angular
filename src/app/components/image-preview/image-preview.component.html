@@ -1,0 +1,18 @@
+<section class="anime-images">
+    <div class="box">
+       <img src="{{image.url}}" class="preview-image">
+       <h3 class="description">{{image.description}}</h3>
+    </div>
+
+</section>
+
+{{/have_images}}
+
+{{^have_images}}
+<section class="anime-images">
+    <div class="box">
+       <img style="width:250px;text-align:center" src="https://preview.redd.it/d1owe2n7ev181.png?width=640&crop=smart&auto=webp&s=42f4aa3bfb8f94d01e37e1f1f49a5fec395f1a46" width="140px" class="preview-image">
+       <h3 class="description">You have encountered emptiness, there is nothing here.<br><a href="/home">Go to home</a></h3>
+    </div>
+
+</section>

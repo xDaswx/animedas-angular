@@ -1,0 +1,12 @@
+<app-gallery-header></app-gallery-header>
+<section *ngIf="animeList" class="anime-images">
+
+        <div class="api-images">
+
+            <div *ngFor="let anime of animeList.content"  class="image-loaded">
+                <a target="_blank" href="preview/{{anime.id}}"><img class="anime" src="{{anime.url}}"></a>
+            </div>
+        </div>
+
+
+</section>
