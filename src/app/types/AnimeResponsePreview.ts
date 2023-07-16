@@ -1,10 +1,10 @@
-export interface AnimeList {
+export interface animePreview {
     message: string;
-    content: [{
+    content: {
       id: number;
       tag_type: string;
       source: string;
       url: string;
       description: string;
-    }];
+    };
   }
