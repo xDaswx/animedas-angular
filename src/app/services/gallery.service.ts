@@ -12,11 +12,11 @@ export class GalleryService {
   constructor(private http:HttpClient) { }
 
   getMany(url:string):Observable<AnimeList> {
-    return this.http.get<AnimeList>('https://animedas.up.railway.app/api/v1/many/'+url)
+    return this.http.get<AnimeList>('https://api-animedas.up.railway.app/api/v1/many/'+url)
   }
 
   GetAnimeInfoById(id:number){
-    return this.http.get<animePreview>('https://animedas.up.railway.app/api/v1/get/'+id)
+    return this.http.get<animePreview>('https://api-animedas.up.railway.app/api/v1/get/'+id)
   }
 
 }
