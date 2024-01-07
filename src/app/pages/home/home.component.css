@@ -1,0 +1,31 @@
+.anime-girl{
+    /* imagem waifu normal
+    margin-top: 9%;
+    max-width: 90%;
+    width: 100%;
+    height: auto; */
+    
+    /* imagem waifu cabelo roxo */
+    margin-top: 35px;
+    /* max-width: 40%; */
+    width: 370px;
+    height: auto;
+    border-bottom: rgb(218, 175, 224) 2px solid;
+    border-right: 2px solid rgb(218, 175, 224);
+    border-radius: 18px;
+   
+}
+
+.anime-girl:hover{
+    cursor: pointer;
+
+}
+
+.hero-bg {
+    background-image: url('../../../assets/BG-min.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
